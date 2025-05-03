@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MotocykleWeb",
   "resources": {
-    "hash": "sha256-v++KpWDxXPEcecjOXM2t77+lu7ZvNf4Pgr9b3V/2H60=",
+    "hash": "sha256-UpEr9vIWEUta0vbdMQX22pnqMC80hXiEfI9PRQxdV4M=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-DTUQS6Jc6BNnS7sYYezFfaUKVmQq0/lanhQuJfygH/k="
     },
@@ -32,7 +32,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-Bi1hyBMWneH/ByWbqT/pNe0B7I/NQFklzD2g3Whdqlk=",
       "Microsoft.JSInterop.wasm": "sha256-/UDU/a22nYNWHSJretwtuHflSN4Z8j8HeEorLjyrHDA=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-GsVw42I3DGzgLTnrD2A9JafVYLHVkyB3Qqe2LyDlYm8=",
-      "MotocykleWeb.wasm": "sha256-SP/kBZ3FKaCxD52lNY8jLRJ3usQetS4ELo7PcevDsCc=",
+      "MotocykleWeb.wasm": "sha256-xjSc1p346/6hdeo8d3zz06TESq8U9eExq0qz9a1rc34=",
       "System.Collections.Concurrent.wasm": "sha256-sNjd6LVzgvN0t7WLTD3IR6234ZdWF4WrKttFZTcLtME=",
       "System.Collections.wasm": "sha256-B4hUC9ifGp+QYpECgCOwUYt46WxUMQ4mI30lDTueBKo=",
       "System.ComponentModel.wasm": "sha256-KJ4vSyD4uZiNAzX16JFlSagNNsiKqkpuxbZRPNjKdR8=",
