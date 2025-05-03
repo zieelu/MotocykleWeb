@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\xampp\\12\\2025\\MotocykleWeb\\MotocykleWeb\\MotocykleWeb\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\xampp\\12\\2025\\MotocykleWeb\\MotocykleWeb\\MotocykleWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MotocykleWeb.styles.css",
+      "PackagePath": "staticwebassets\\MotocykleWeb.styles.css"
+    },
+    {
+      "Id": "D:\\xampp\\12\\2025\\MotocykleWeb\\MotocykleWeb\\MotocykleWeb\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\xampp\\12\\2025\\MotocykleWeb\\MotocykleWeb\\MotocykleWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\xampp\\12\\2025\\MotocykleWeb\\MotocykleWeb\\MotocykleWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\xampp\\12\\2025\\MotocykleWeb\\MotocykleWeb\\MotocykleWeb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\xampp\\12\\2025\\MotocykleWeb\\MotocykleWeb\\MotocykleWeb\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\xampp\\12\\2025\\MotocykleWeb\\MotocykleWeb\\MotocykleWeb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\xampp\\12\\2025\\MotocykleWeb\\MotocykleWeb\\MotocykleWeb\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MotocykleWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MotocykleWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MotocykleWeb.props",
+      "PackagePath": "build\\MotocykleWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MotocykleWeb.props",
+      "PackagePath": "buildMultiTargeting\\MotocykleWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MotocykleWeb.props",
+      "PackagePath": "buildTransitive\\MotocykleWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,122 @@
+﻿@page "/"
+
+<style>
+    .top-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        z-index: 1000;
+    }
+
+    .main-content {
+        display: flex;
+        margin-top: 80px;
+        margin-bottom: 60px;
+        padding: 20px;
+    }
+
+    .left-panel {
+        flex: 1;
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+
+    .right-panel {
+        flex: 2;
+        padding: 20px;
+        background-color: #e0e0e0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 20px;
+        font-size: 16px;
+        z-index: 1000;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .gallery {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        .gallery button {
+            margin: 0 10px;
+            padding: 5px 10px;
+            font-size: 18px;
+        }
+</style>
+
+<div class="top-bar">
+    Świat motocykli
+</div>
+
+<div class="main-content">
+    <div class="left-panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+        <p>Donec vel sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+    </div>
+
+    <div class="right-panel">
+        <!-- Dwa zdjęcia jedno pod drugim -->
+        <img src="https://via.placeholder.com/600x300?text=Motocykl+1" alt="Motocykl 1" />
+        <img src="https://via.placeholder.com/600x300?text=Motocykl+2" alt="Motocykl 2" />
+
+        <!-- Galeria ze strzałkami -->
+        <div class="gallery">
+            <button @onclick="PreviousImage">←</button>
+            <img src="@galleryImages[currentImage]" alt="Galeria motocykli" />
+            <button @onclick="NextImage">→</button>
+        </div>
+    </div>
+</div>
+
+<div class="bottom-bar">
+    zielu
+</div>
+
+@code {
+    private int currentImage = 0;
+
+    private List<string> galleryImages = new()
+    {
+        "https://via.placeholder.com/600x300?text=Motocykl+3",
+        "https://via.placeholder.com/600x300?text=Motocykl+4",
+        "https://via.placeholder.com/600x300?text=Motocykl+5"
+    };
+
+    private void NextImage()
+    {
+        currentImage = (currentImage + 1) % galleryImages.Count;
+    }
+
+    private void PreviousImage()
+    {
+        currentImage = (currentImage - 1 + galleryImages.Count) % galleryImages.Count;
+    }
+}
